@@ -4,7 +4,7 @@ class Commande {
     private int $numeroCommande;
     private array $platsCommandes;
     private string $statut;
-    private float $tva; // Taux de TVA
+    private float $tva;
 
     // Constructeur
     public function __construct(int $numeroCommande) {
